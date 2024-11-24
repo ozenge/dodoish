@@ -8,7 +8,7 @@ dpb:{19#'9_'(-6+!13){((3*x)#" "),y}'"     "/'(,/((0N,!3)!" .12")x)@.=+/!7 7}
 rmm:{*{~gmv[1;x 1]}{(1+*x;mmv[x 1;*gmv[1;x 1]])}/(0;(-1+*x){x|(1 2!2 1)@|'|x}/y)}
 gns:{{(gmv. x){(3-*y;mmv[y 1]x)}\:x}(x;y)}
 gov:{gmv[y;z]@{x?|/x}@{&/{(-3+2**x)*rmm. x}'x(,/(gns.)')/,y}[x]'gns[y;z]}
-/il:initial vc:vectors gmv:get-moves[p;b] rdb:random-board[] mmv:make-move[b;m] spg:sample-game[]->(p;b) dpb:display-board[b] rmm:remaining-moves[p;b](inaccurate) gns:game's-next-states[p;b] ggv:generate-ok-move[ply;p;b](bad)
+/il:initial vc:vectors gmv:get-moves[p;b] rdb:random-board[] mmv:make-move[b;m] spg:sample-game[]->(p;b) dpb:display-board[b] rmm:remaining-moves[p;b](inaccurate) gns:game's-next-states[p;b] gov:generate-ok-move[ply;p;b](bad)
 cw:512;hw:41.33;pi:3.14159265359;`js"window.c=window.g.getContext`2d`;c.strokeStyle='black'"
 hl:((256;hw)+)''hw*{+/(1.5 0.86602540378;-1.5 0.86602540378)*7 7\x}''7 7#!49
 csl:{`js"console.log(\"",(`k@x),"\")"}
