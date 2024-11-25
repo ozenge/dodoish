@@ -5,7 +5,7 @@ rdb:{il{.[x;*y;:;il.*|y]}/{+(x;(-#x)?x)}@+&~^il}
 mmv:{{.[;*|y;:;x.*y].[x;*y;:;x.*|y]}[x;$[#y;y;()]]}
 spg:{{gmv[*x;*|x]}{(3-*x;mmv[*|x;*gmv[*x;*|x]])}/(1;rdb[])}
 dpb:{19#'9_'(-6+!13){((3*x)#" "),y}'"     "/'(,/((0N,!3)!" .12")x)@.=+/!7 7}
-rmm:{*{~gmv[1;x 1]}{(1+*x;mmv[x 1;*gmv[1;x 1]])}/(0;(-1+*x){x|(1 2!2 1)@|'|x}/y)}
+rmm:{*{~gmv[1;x 1]}{(1+*x;mmv[x 1;*gmv[1;x 1]])}/(0;(x-1){((0N,!3)!0N 0 2 1)@|'|x}/y)}
 gns:{{(gmv. x){(3-*y;mmv[y 1]x)}\:x}(x;y)}
 gov:{gmv[y;z]@{x?|/x}@{&/{(-3+2**x)*rmm. x}'x(,/(gns.)')/,y}[x]'gns[y;z]}
 /il:initial vc:vectors gmv:get-moves[p;b] rdb:random-board[] mmv:make-move[b;m] spg:sample-game[]->(p;b) dpb:display-board[b] rmm:remaining-moves[p;b](inaccurate) gns:game's-next-states[p;b] gov:generate-ok-move[ply;p;b](bad)
