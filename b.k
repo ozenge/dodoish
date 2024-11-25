@@ -16,7 +16,7 @@ dhx:{`js"c.fillStyle='",x,"';c.beginPath();",({";"/({"c.lineTo(",(","/$x),")"}z+
 dcc:{`js"c.fillStyle='",x,"';c.beginPath();c.arc(",($y),",",($z),",",($hw*0.75),",0,6.28318530718);c.fill();c.stroke()"}
 ab:il;sn:()
 dbc:{{dhx[("moccasin";"green")@~^sn?x].hl. x;$[ab. x;dcc[(0;"red";"blue")ab. x].hl. x;0]}'+&~^il}
-sel:{csl(x;y);{(x;())@^il. x}{$[#x;x;()]}@,/&{{y=x}[&/,/x]'x}@{%+/{x*x}(x;y)-z}[x;y]''hl}
+sel:{csl(x;y);{(x;())@^il. x}{$[#x;x;()]}@,/&{csl x;x}{{y=x}[&/,/x]'x}@{%+/{x*x}(x;y)-z}[x;y]''hl}
 slc:{{$[(#sn)&~^(1_sn)?x;[ab::mmv[ab;(*sn;x)];sn::();dbc[];ab::mmv[ab;gov[2;2;ab]]];sn::$[x;{$[1=#x;();x]}(,x),(*|:)'({x~*y}[x]')#gmv[1;ab];x]]}sel[x;y];csl(rmm[1;ab];rmm[2;ab])}
 `js"window.g.onclick=e=>{let r=window.g.getBoundingClientRect();K(`.[slc;(${e.clientX-r.left};${e.clientY-r.top});csl];dbc[]`)}";dbc[]
 /cw:canvas-width hw:hex-width pi hl:hex-locations csl:console-log[x] dhx:draw-hex[color;x;y] dcc:draw-circle[color;x;y] ab:active-board sn:selected-hex-&-neighbors dbc:draw-board-on-canvas[] sel:select-nearest-hex[x;y] slc:select-conditional[x;y]
