@@ -11,7 +11,7 @@ gov:{gmv[y;z]@{x?|/x}@{&/{(-3+2**x)*rmm. x}'x(,/(gns.)')/,y}[x]'gns[y;z]}
 /il:initial vc:vectors gmv:get-moves[p;b] rdb:random-board[] mmv:make-move[b;m] spg:sample-game[]->(p;b) dpb:display-board[b] rmm:remaining-moves[p;b](inaccurate) gns:game's-next-states[p;b] gov:generate-ok-move[ply;p;b](bad)
 cw:512;hw:41.33;pi:3.14159265359;`js"window.c=window.g.getContext`2d`;c.strokeStyle='black'"
 hl:((256;hw)+)''hw*{+/(1.5 0.86602540378;-1.5 0.86602540378)*7 7\x}''7 7#!49
-csl:{`js"console.log(\"",({,/@[x;&x="`";{"\\`"}]}@`k x),"\")"}
+csl:{`js"console.log(`",({,/@[x;&x="`";{"\\`"}]}@`k x),"`)"}
 dhx:{`js"c.fillStyle='",x,"';c.beginPath();",({";"/({"c.lineTo(",(","/$x),")"}z+)'{x*(`cos y;-`sin y)}[x]'(!y)*2*pi%y}[hw;6;(y;z)]),";c.closePath();c.fill();c.stroke()"}
 dcc:{`js"c.fillStyle='",x,"';c.beginPath();c.arc(",($y),",",($z),",",($hw*0.75),",0,6.28318530718);c.fill();c.stroke()"}
 ab:il;sn:()
